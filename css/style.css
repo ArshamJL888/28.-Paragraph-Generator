@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+
+.container {
+    width: 1450px;
+    /* height: 740px; */
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.title {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.fa-paragraph {
+    font-size: 28px;
+    margin-right: 10px;
+    color: #546E7A;
+}
+
+.userNum {
+    width: 600px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+    padding-top: 50px;
+    margin: 35px;
+    margin-top: 80px;
+    /* border: 1px solid blue; */
+    vertical-align: middle;
+}
+
+.generatedText {
+    width: 700px;
+    /* height: 650px; */
+    margin: 25px;
+    /* border: 1px solid red; */
+    float: right;
+    text-align: left;
+    direction: ltr;
+    padding: 7px;
+}
+#generate {
+    width: 100px;
+    height: 42.5px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 420;
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+    
+}
+
+#generate:hover {
+    background-color: #2979FF;
+}
+
+#parNum {
+    width: 200px;
+    padding: 5px;
+    font-size: 19px;
+    height: 30px;
+    font-weight: 420;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+label {
+    font-size: 21px;
+    font-weight: 410;
+}
